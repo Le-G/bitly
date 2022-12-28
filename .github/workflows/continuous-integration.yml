@@ -1,5 +1,5 @@
-name: Continuous Deployment
-on: [pull-request]
+name: Continuous Integration
+on: [pull_request]
 
 jobs:
   ci:
@@ -19,4 +19,3 @@ jobs:
         run: npm run lint
       - name: Build
         run: npm run build
-
